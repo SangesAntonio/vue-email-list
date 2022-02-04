@@ -12,8 +12,8 @@
 <body>
     <div id="root">
         <ul>
-            <li>
-                <h1></h1>
+            <li v-for="(email, index) in emails">
+                <h1>{{email}}</h1>
             </li>
         </ul>
     </div>
